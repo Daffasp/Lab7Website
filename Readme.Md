@@ -189,3 +189,6 @@ Dari praktikum ini, kita telah memahami dasar-dasar penggunaan framework CodeIgn
 
 Dengan menyelesaikan praktikum ini, kita mendapatkan pemahaman yang lebih baik tentang bagaimana CodeIgniter 4 mempermudah pengembangan aplikasi berbasis web dengan struktur yang lebih terorganisir dan efisien. 🚀🔥
 
+
+# Praktikum 2: Framework Lanjutan
+
