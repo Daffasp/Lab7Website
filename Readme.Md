@@ -203,13 +203,6 @@ Gunakan perintah berikut untuk membuat database:
 CREATE DATABASE lab_ci4;
 ```
 
-## Menggunakan Database
-Setelah database dibuat, pilih database yang akan digunakan:
-
-```sql
-USE lab_ci4;
-```
-
 ## Membuat Tabel Artikel
 Tabel ini menyimpan informasi mengenai artikel yang dipublikasikan.
 
@@ -223,28 +216,6 @@ CREATE TABLE artikel (
     kategori VARCHAR(100)
 );
 ```
-
-## Menambahkan Data Contoh
-Tambahkan beberapa data contoh ke dalam tabel `artikel`:
-
-```sql
-INSERT INTO artikel (judul, konten, penulis, tanggal_publikasi, kategori) VALUES
-('Belajar MySQL', 'MySQL adalah sistem manajemen basis data relasional...', 'Daffa Sadewa', '2025-03-25', 'Database'),
-('Tips Menulis Artikel', 'Menulis artikel yang baik memerlukan struktur yang jelas...', 'Freya', '2025-03-24', 'Penulisan');
-```
-
-## Menampilkan Data Artikel
-Gunakan perintah berikut untuk melihat semua artikel yang ada di dalam tabel:
-
-```sql
-SELECT * FROM artikel;
-```
-
-## Kontributor
-- **Daffa Sadewa Putra** (TI.23.A5)
-
-## Lisensi
-Proyek ini menggunakan lisensi MIT. Silakan gunakan dan modifikasi sesuai kebutuhan.
 
 
 
