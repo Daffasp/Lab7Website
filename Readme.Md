@@ -192,3 +192,5 @@ Dengan menyelesaikan praktikum ini, kita mendapatkan pemahaman yang lebih baik t
 
 # Praktikum 2: Framework Lanjutan
 
+Membuat Database: Studi Kasus Data Artikel
+CREATE DATABASE lab_ci4;
