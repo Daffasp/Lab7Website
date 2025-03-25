@@ -192,5 +192,59 @@ Dengan menyelesaikan praktikum ini, kita mendapatkan pemahaman yang lebih baik t
 
 # Praktikum 2: Framework Lanjutan
 
-Membuat Database: Studi Kasus Data Artikel
+# Database: Studi Kasus Data Artikel
+
+Repositori ini berisi skema dan struktur database untuk studi kasus data artikel menggunakan MySQL.
+
+## Membuat Database
+Gunakan perintah berikut untuk membuat database:
+
+```sql
 CREATE DATABASE lab_ci4;
+```
+
+## Menggunakan Database
+Setelah database dibuat, pilih database yang akan digunakan:
+
+```sql
+USE lab_ci4;
+```
+
+## Membuat Tabel Artikel
+Tabel ini menyimpan informasi mengenai artikel yang dipublikasikan.
+
+```sql
+CREATE TABLE artikel (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(255) NOT NULL,
+    konten TEXT NOT NULL,
+    penulis VARCHAR(100) NOT NULL,
+    tanggal_publikasi DATE NOT NULL,
+    kategori VARCHAR(100)
+);
+```
+
+## Menambahkan Data Contoh
+Tambahkan beberapa data contoh ke dalam tabel `artikel`:
+
+```sql
+INSERT INTO artikel (judul, konten, penulis, tanggal_publikasi, kategori) VALUES
+('Belajar MySQL', 'MySQL adalah sistem manajemen basis data relasional...', 'Daffa Sadewa', '2025-03-25', 'Database'),
+('Tips Menulis Artikel', 'Menulis artikel yang baik memerlukan struktur yang jelas...', 'Freya', '2025-03-24', 'Penulisan');
+```
+
+## Menampilkan Data Artikel
+Gunakan perintah berikut untuk melihat semua artikel yang ada di dalam tabel:
+
+```sql
+SELECT * FROM artikel;
+```
+
+## Kontributor
+- **Daffa Sadewa Putra** (TI.23.A5)
+
+## Lisensi
+Proyek ini menggunakan lisensi MIT. Silakan gunakan dan modifikasi sesuai kebutuhan.
+
+
+
